@@ -5,10 +5,13 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #121212;
-  color: #ffffff;
+ html, body {
+    background-color: #000000;  
+    height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
 }
 
 /* Estilo del header */
@@ -47,10 +50,20 @@ nav ul li a:hover {
   color: #00bcd4;
 }
 
+
+main {
+    flex:1;
+}
+
+.servicios {
+ color: #ffffff;
+
+}
 footer {
   background-color: #1f1f1f;
   padding: 20px;
   text-align: center;
   font-size: 14px;
   margin-top: 40px;
+  color: #ffffff;
 }

@@ -1,0 +1,19 @@
+.banner {
+  background-image: url('../img/banner-servicios.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+}
+
+.texto-banner {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+    font-size: 50px;
+  padding: 20px;
+  border-radius: 8px;
+}
