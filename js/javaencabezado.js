@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     includeHTML(rutaBase + "encabezado-piecera/header.html", "header-container");
     includeHTML(rutaBase + "encabezado-piecera/footer.html", "footer-container");
-   
+    
 });
 
 function includeHTML(file, elementId) {
