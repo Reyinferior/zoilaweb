@@ -1,0 +1,42 @@
+.index-servicios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    gap: 30px;
+
+    background-color: #000000;
+    padding: 20px 0px;
+    height: auto;
+
+
+}
+
+.contenedor-servicios {
+    padding: 30px 20px;
+    height: auto;
+    width: 350px;
+    position: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: all 0.5s ease;
+    background-image: url(/imagenes/fondotarjetaindex1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedor-servicios:hover {
+    background-color: #0e0c2c;
+    color: white;
+    transform: translateY(-15px); /* Se eleva */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    background-image:url(/imagenes/fondotarjetaindex.png);
+    background-size: cover;
+    background-position: center;
+}

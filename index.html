@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="estilos/estilo-general.css">
     <link rel="stylesheet" href="estilos/encabezado-piecera.css">
     <link rel="stylesheet" href="estilos/banner-index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/estilos/texto-section-soluciones.css">
+    <link rel="stylesheet" href="/estilos/texto-section-servicios.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
     <script src="js/javaencabezado.js" defer></script>
     </head>
 <body>
@@ -14,19 +19,95 @@
 
 <main>
     
-    <section class="banner-principal">
-        <img src="/imagenes/bannerindex.png"  class="banner-index" alt="imagen-del-banner">
-          <div class="texto-banner-principal">
-              <h1>Bienvenido a ZG Servicios Informáticos</h1>
-              <p>“Soluciones confiables, rápidas y personalizadas”</p>
-              <button class="boton-contacto">Solicita una cotización</button>
-    </div>
-    </section>
+    <section class="carrusel">
+        <div class="slider" id="slider">
+          
+          <div class="slide active">
+            <img src="/imagenes/asesoriainformatica.png" class="imagen-carrusel" alt="Asesoria-informatica">
+            <div class="texto-slide">
+              <h2>Asesoría informática</h2>
+              <p>Asesoría clara, técnica y sin rodeos.</p>
+              <button id="boton-cotizar" class="btn-slide">Más información</button>
+            </div>
+          </div>
+        
+        <div class="slide">
+            <img src="/imagenes/Servicio de Soporte técnico.png" class="imagen-carrusel" alt="Servicio de Soporte técnico de laptop,computadora e impresora">
+            <div class="texto-slide">
+              <h2>Servicio de Soporte técnico de laptop,computadora e impresora</h2>
+              <p>Reparamos, optimizamos y damos mantenimiento a tus equipos. ¡Rápido, confiable y a tu medida!</p>
+              <button id="boton-cotizar" class="btn-slide">Más información</button>
+            </div>
+          </div>
+
+          <div class="slide" >
+            <img src="/imagenes/Desarrollo de aplicaciones.png" class="imagen-carrusel" alt="Desarrollo de aplicaciones.png">
+            <div class="texto-slide">
+              <h2>Desarrollo de aplicaciones</h2>
+              <p>Creamos apps rápidas, funcionales y seguras para potenciar tu negocio o idea. ¡Tú lo imaginas, nosotros lo programamos!</p>
+              <button id="boton-cotizar" class="btn-slide">Más información</button>
+            </div>
+          </div>
+
+          <div class="slide">
+            <img src="/imagenes/Venta de repuestos y accesorios.png" class="imagen-carrusel" alt="Venta de repuestos y accesorios">
+            <div class="texto-slide">
+              <h2>Venta de repuestos y accesorios</h2>
+              <p>Todo lo que necesitas para tu equipo en un solo lugar: repuestos originales, suministros de calidad y los mejores accesorios. ¡Tecnología sin interrupciones!</p>
+              <button id="boton-cotizar" class="btn-slide">Más información</button>
+            </div>
+          </div>
+
+        </div>
+
+          <div class="controles">
+            <span class="prev">❮</span>
+            <span class="next">❯</span>
+          </div>
+</section>
   
-    </main>
+  <section class="soluciones-informaticas">
+      <div class="contenedor-soluciones">
+        <h2>Soluciones Informáticas</h2>
+        <p>Ofrecemos soluciones informáticas integrales para empresas y particulares. Desde asesoría técnica hasta desarrollo de software personalizado, nuestro equipo está listo para ayudarte a alcanzar tus objetivos tecnológicos.</p>
+        </div>
+  </section>
+
+  
+  <section class="index-servicios">
+            <div class="contenedor-servicios">
+                
+                <h2>Asesoría informática</h2>
+                <p>Diagnóstico, instalación, limpieza de PCs.</p>
+            </div>
+
+        <div class="contenedor-servicios">
+                
+                <h2>Servicio de Soporte técnico de laptop computadora e impresora</h2>
+                <p>Brindamos soluciones efectivas a cualquier problema tecnológico.</p>
+            </div>
+        <div class="contenedor-servicios">
+                
+                <h2>Desarrollo de aplicaciones</h2>
+                <p>Brindamos soluciones efectivas a cualquier problema tecnológico.</p>
+                </div>
+
+        <div class="contenedor-servicios">
+                
+                <h2>Venta de repuestos y accesorios</h2>
+                <p>Todo lo que necesitas para tu equipo en un solo lugar: repuestos originales, suministros de calidad y los mejores accesorios. ¡Tecnología sin interrupciones!</p>    
+            
+              </div>
+        </section>
+  
+
+
+    
+  </main>
 
   <div id="footer-container"></div>
 
   <script src="js/boton-contacto.js"></script>
+  <script src="js/banner-carrusel.js"></script>
 </body>
-</html>
+</html> 

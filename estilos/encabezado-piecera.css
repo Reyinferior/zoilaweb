@@ -1,8 +1,15 @@
 /* Estilo del header */
 header {
-    background-color: #1f1f1f;
-    padding: 20px 40px;
+    
+    height: 120px; /* altura fija */
+    width: 100%;   /* ancho completo */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background: #05024d;
+    background: linear-gradient(90deg, rgba(5, 2, 77, 1) 1%, rgba(45, 43, 171, 1) 84%);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    overflow: hidden; 
 }
 
 .encabezado {
@@ -10,14 +17,25 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    height: 100%; /* ocupa todo el alto del header */
+    padding: 0 40px;
 }
 
-.encabezado h2 a {
-    font-size: 24px;
-    color: #00bcd4;
-    text-decoration:none;
 
+
+
+/*css para el logo empresa*/
+.logo-empresa{
+    width: 350px;
+    height: 120px;
+    border-radius: 25%;
+    margin-right: 10px;
+      /* opcional para limitarlo horizontalmente */
+    
 }
+
+
+
 
 nav ul {
     list-style: none;
